@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.en.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.fr.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.zh.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.ja.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.ko.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.zh_TW.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.ru.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.pl.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.es.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.pt.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.de.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.tr.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.it.translation" ]
+
+source_file="res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.csv"
+dest_files=[ "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.en.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.fr.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.zh.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.ja.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.ko.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.zh_TW.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.ru.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.pl.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.es.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.pt.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.de.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.tr.translation", "res://mods-unpacked/Nailim-SecondChance/translations/mod.translations.it.translation" ]
+
+[params]
+
+compress=true
+delimiter=0
