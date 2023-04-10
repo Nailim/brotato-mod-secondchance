@@ -6,4 +6,4 @@ The mod gives the player a second chance on death by returning him one wave back
 
 ## Accesible on steam
 
-Published on steam workshop [workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2960655078).
+Published on steam [workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2960655078).
