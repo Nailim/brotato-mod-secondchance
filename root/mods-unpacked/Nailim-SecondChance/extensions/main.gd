@@ -6,7 +6,6 @@ const SECONDCHANCE_LOG = "Nailim-SecondChance"
 
 func _ready()->void :
 	RunData.did_use_second_chance = false
-	print("Extended main-> _ready!")
 	#._ready()
 
 
