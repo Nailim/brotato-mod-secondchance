@@ -12,8 +12,7 @@ func _ready()->void :
 func _on_player_died(_p_player:Player)->void :
 	_player_life_bar.hide()
 	
-	if true:
-		if RunData.current_wave <= 20:
+	if RunData.has_second_chance && RunData.current_wave <= 20:
 			ModLoaderUtils.log_info("SecondChance Activated", SECONDCHANCE_LOG)
 			
 			RunData.did_use_second_chance = true
@@ -25,5 +24,5 @@ func _on_player_died(_p_player:Player)->void :
 			
 			_wave_timer.stop()
 			_on_WaveTimer_timeout()
-		else:
+	else:
 			._on_player_died(_p_player)
