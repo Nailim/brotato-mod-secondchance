@@ -16,6 +16,7 @@ func _on_player_died(_p_player:Player)->void :
 			ModLoaderUtils.log_info("SecondChance Activated", SECONDCHANCE_LOG)
 			
 			RunData.did_use_second_chance = true
+			RunData.second_chance_use_count += 1
 			
 			if RunData.current_wave > 1:
 				RunData.current_wave -= 2
