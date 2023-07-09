@@ -1,9 +1,9 @@
 {
 	"name": "SecondChance",
 	"namespace": "Nailim",
-	"version_number": "1.2.0",
-	"description": "Gives the player a second chance on death by returning him one wave back instead of ending the run. The character keeps all the progress so far, allowing the player to build up to the challenge, up to including level 20.",
-	"website_url": "https://github.com:Nailim/brotato-mod-secondchance.git",
+	"version_number": "2.0.0",
+	"description": "Gives the player a second chance on death instead of ending the run. The character keeps all the progress, allowing the player to build up to the challenge.\n\nBy default the player is protected up to including level 20.\n\nNow with optional ModOptions support for configuration",
+	"website_url": "https://github.com/Nailim/brotato-mod-secondchance",
 	"dependencies": [],
 	"extra": {
 		"godot": {
@@ -11,7 +11,21 @@
 			"authors": ["Nailim"],
 			"compatible_mod_loader_version": ["6.0.0"],
 			"compatible_game_version": ["1.0.0.3"],
-			"config_defaults": {}
+			"optional_dependencies": ["dami-ModOptions"],
+			"config_schema": {
+				"title": "SC-Config",
+				"description": "Config for SecondChance",
+				"type": "object",
+				"properties": {
+					"SC_MAX_WAVE": {
+						"type": "number",
+						"minimum": 1.0,
+						"maximum": 99.0,
+						"multipleOf": 1.0,
+						"default": 20.0
+					}
+				}
+			}
 		}
 	}
 }

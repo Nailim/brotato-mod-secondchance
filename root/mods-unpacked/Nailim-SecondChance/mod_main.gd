@@ -43,4 +43,9 @@ func _init(_modLoader = ModLoader):
 
 
 func _ready():
+	var event_listener = preload("res://mods-unpacked/Nailim-SecondChance/mod_sc_main_event_listener.gd")
+	event_listener = event_listener.new()
+	event_listener.name = "SCMainEventListener"
+	add_child(event_listener)
+	
 	ModLoaderLog.info("Ready", SECONDCHANCE_LOG)
