@@ -24,8 +24,6 @@ func _on_player_died(_p_player:Player)->void :
 	
 	if RunData.has_second_chance:
 		if RunData.current_wave <= int(SCMainEventListener.get_settings().get("SC_MAX_WAVE")):
-			ModLoaderLog.info("SecondChance Activated", SECONDCHANCE_LOG)
-			
 			RunData.did_use_second_chance = true
 			RunData.second_chance_use_count += 1
 			
