@@ -2,7 +2,11 @@
 
 This is a mod for the game Brotato.
 
-The mod gives the player a second chance on death by returning him one wave back instead of ending the run. The character keeps all the progress so far, allowing the player to build up to the challenge, up to including level 20.
+Gives the player a second chance on death instead of ending the run. The character keeps all the progress, allowing the player to build up to the challenge.
+
+By default the player is protected up to including level 20.
+
+Now with optional [ModOptions](https://steamcommunity.com/sharedfiles/filedetails/?id=2944608034) support for configuration.
 
 ## Accesible on steam
 
