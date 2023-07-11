@@ -1,7 +1,7 @@
 {
 	"name": "SecondChance",
 	"namespace": "Nailim",
-	"version_number": "2.0.0",
+	"version_number": "2.0.1",
 	"description": "Gives the player a second chance on death instead of ending the run. The character keeps all the progress, allowing the player to build up to the challenge.\n\nBy default the player is protected up to including level 20.\n\nNow with optional ModOptions support for configuration",
 	"website_url": "https://github.com/Nailim/brotato-mod-secondchance",
 	"dependencies": [],
