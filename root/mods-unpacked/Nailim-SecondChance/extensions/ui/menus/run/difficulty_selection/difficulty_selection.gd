@@ -14,6 +14,7 @@ func _ready()->void:
 	_secondchance_button.text = "SECOND_CHANCE"
 	
 	_secondchance_button.pressed = ProgressData.settings.second_chance_mode_toggled
+	RunData.has_second_chance = ProgressData.settings.second_chance_mode_toggled
 	
 	_endlessbutton_parent.add_child(_secondchance_button)
 
