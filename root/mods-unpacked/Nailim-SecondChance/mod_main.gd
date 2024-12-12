@@ -17,9 +17,9 @@ func _init() -> void:
 	# Add extensions
 	ModLoaderMod.install_script_extension(ext_dir.plus_file("main.gd"))
 	ModLoaderMod.install_script_extension(ext_dir.plus_file("singletons/run_data.gd"))
-	ModLoaderMod.install_script_extension(ext_dir.plus_file("ui/menus/ingame/wave_cleared_label.gd"))
 	
-	ModLoaderMod.install_script_extension(ext_dir.plus_file("ui/menus/run/difficulty_selection/difficulty_selection.gd"))
+	ModLoaderMod.install_script_extension(ext_dir.plus_file("ui/menus/run/character_selection.gd"))	
+	ModLoaderMod.install_script_extension(ext_dir.plus_file("ui/menus/ingame/wave_cleared_label.gd"))
 	
 	
 #	# Add translations

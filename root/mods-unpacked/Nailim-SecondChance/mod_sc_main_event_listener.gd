@@ -16,13 +16,14 @@ var settings_dict:Dictionary = {}
 
 
 func _ready():
-	parse_default_settings()
-	
 	ModsConfigInterface = get_node_or_null("/root/ModLoader/dami-ModOptions/ModsConfigInterface")
-	if ModsConfigInterface:
-		ModLoaderLog.info("ModOptions Support", SECONDCHANCE_LOG)
-	else:
+	if not ModsConfigInterface:
 		ModLoaderLog.info("No ModOptions Support", SECONDCHANCE_LOG)
+		return
+		
+	ModLoaderLog.info("ModOptions Support", SECONDCHANCE_LOG)
+	
+	parse_default_settings()
 	
 	ModsConfigInterface.connect("setting_changed", self, "_on_setting_changed")
 	
@@ -37,10 +38,6 @@ func parse_default_settings()->void :
 
 
 func load_settings()->void :
-	if not ModsConfigInterface:
-		return
-	
-	
 	# load settings from saved config
 	var configs = ModLoaderConfig.get_configs(MOD_NAME)
 	if configs.has(CONFIG_NAME):
